@@ -1,0 +1,44 @@
+{
+  "name": "bs-material-ui-icons",
+  "version": "0.0.0",
+  "description": "Reason bindings for material-ui-icons",
+  "main": "lib/js/src/MaterialUI.js",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "yarn run clean && yarn run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InsidersByte/bs-material-ui-icons.git"
+  },
+  "keywords": [
+    "Material",
+    "Design",
+    "Material-UI",
+    "Icons",
+    "React",
+    "react-component",
+    "bucklescript"
+  ],
+  "author": "Jonathon Kelly <jonathon@insidersbyte.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/InsidersByte/bs-material-ui-icons/issues"
+  },
+  "homepage": "https://github.com/InsidersByte/bs-material-ui-icons#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "bs-platform": "2.0.0",
+    "material-ui-icons": "1.0.0-beta.17",
+    "reason-react": "0.2.4"
+  },
+  "peerDependencies": {
+    "material-ui-icons": "1.0.0-beta.x",
+    "react": "^15.3.0 || ^16.0.0",
+    "react-dom": "^15.3.0 || ^16.0.0",
+    "reason-react": "^0.2.4"
+  }
+}
