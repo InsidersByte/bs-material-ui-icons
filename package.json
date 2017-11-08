@@ -32,15 +32,14 @@
     "url": "https://github.com/InsidersByte/bs-material-ui-icons/issues"
   },
   "homepage": "https://github.com/InsidersByte/bs-material-ui-icons#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "bs-platform": "2.0.0",
     "husky": "0.14.3",
     "lint-staged": "4.3.0",
     "material-ui": "1.0.0-beta.20",
-    "prettier": "1.8.1"
-  },
-  "devDependencies": {
-    "bs-platform": "2.0.0",
     "material-ui-icons": "1.0.0-beta.17",
+    "prettier": "1.8.1",
     "reason-react": "0.2.4"
   },
   "peerDependencies": {
