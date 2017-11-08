@@ -4,11 +4,14 @@
   "description": "Reason bindings for material-ui-icons",
   "main": "lib/js/src/MaterialUI.js",
   "scripts": {
+    "precommit": "lint-staged",
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "yarn run clean && yarn run build"
+    "prepublish": "yarn run clean && yarn run build",
+    "generate-bindings": "node ./scripts/generate-bindings.js",
+    "format": "prettier --write ./*.{js,json} ./**/*.{js,json}"
   },
   "repository": {
     "type": "git",
@@ -29,7 +32,12 @@
     "url": "https://github.com/InsidersByte/bs-material-ui-icons/issues"
   },
   "homepage": "https://github.com/InsidersByte/bs-material-ui-icons#readme",
-  "dependencies": {},
+  "dependencies": {
+    "husky": "0.14.3",
+    "lint-staged": "4.3.0",
+    "material-ui": "1.0.0-beta.20",
+    "prettier": "1.8.1"
+  },
   "devDependencies": {
     "bs-platform": "2.0.0",
     "material-ui-icons": "1.0.0-beta.17",
@@ -40,5 +48,9 @@
     "react": "^15.3.0 || ^16.0.0",
     "react-dom": "^15.3.0 || ^16.0.0",
     "reason-react": "^0.2.4"
+  },
+  "lint-staged": {
+    "*.{js,json}": ["prettier --write", "git add"],
+    "src/**/*.re": ["refmt --in-place", "git add"]
   }
 }
