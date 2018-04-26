@@ -1,6 +1,6 @@
 # Reason bindings for Material-UI-Icons
 
-[![npm](https://img.shields.io/npm/v/bs-material-ui-icons.svg)](https://www.npmjs.com/package/bs-material-ui-icons)  
+[![npm](https://img.shields.io/npm/v/bs-material-ui-icons.svg)](https://www.npmjs.com/package/bs-material-ui-icons)
 
 [Reason](https://reasonml.github.io/) bindings for [material-ui-icons](https://github.com/callemall/material-ui).
 
