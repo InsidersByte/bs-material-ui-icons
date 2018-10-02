@@ -14,7 +14,8 @@ Feel free to create an issue or PR if you find anything missing.
 
 ```
 yarn add bs-material-ui-icons
-yarn add material-ui-icons@1.0.0-beta.17
+yarn add @material-ui/core
+yarn add @material-ui/icons
 ```
 
 Then add `bs-material-ui-icons` to `bs-dev-dependencies` in your `bsconfig.json`:
