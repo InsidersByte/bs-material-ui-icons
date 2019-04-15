@@ -1398,27 +1398,6 @@ module Contacts = {
     ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
 };
 
-module ContentCopy = {
-  [@bs.module "@material-ui/icons/ContentCopy"]
-  external reactClass : ReasonReact.reactClass = "default";
-  let make = children =>
-    ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
-};
-
-module ContentCut = {
-  [@bs.module "@material-ui/icons/ContentCut"]
-  external reactClass : ReasonReact.reactClass = "default";
-  let make = children =>
-    ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
-};
-
-module ContentPaste = {
-  [@bs.module "@material-ui/icons/ContentPaste"]
-  external reactClass : ReasonReact.reactClass = "default";
-  let make = children =>
-    ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
-};
-
 module ControlPoint = {
   [@bs.module "@material-ui/icons/ControlPoint"]
   external reactClass : ReasonReact.reactClass = "default";
@@ -1783,34 +1762,6 @@ module DoneAll = {
     ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
 };
 
-module DoNotDisturb = {
-  [@bs.module "@material-ui/icons/DoNotDisturb"]
-  external reactClass : ReasonReact.reactClass = "default";
-  let make = children =>
-    ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
-};
-
-module DoNotDisturbAlt = {
-  [@bs.module "@material-ui/icons/DoNotDisturbAlt"]
-  external reactClass : ReasonReact.reactClass = "default";
-  let make = children =>
-    ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
-};
-
-module DoNotDisturbOff = {
-  [@bs.module "@material-ui/icons/DoNotDisturbOff"]
-  external reactClass : ReasonReact.reactClass = "default";
-  let make = children =>
-    ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
-};
-
-module DoNotDisturbOn = {
-  [@bs.module "@material-ui/icons/DoNotDisturbOn"]
-  external reactClass : ReasonReact.reactClass = "default";
-  let make = children =>
-    ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
-};
-
 module DonutLarge = {
   [@bs.module "@material-ui/icons/DonutLarge"]
   external reactClass : ReasonReact.reactClass = "default";
@@ -2128,20 +2079,6 @@ module FiberPin = {
 
 module FiberSmartRecord = {
   [@bs.module "@material-ui/icons/FiberSmartRecord"]
-  external reactClass : ReasonReact.reactClass = "default";
-  let make = children =>
-    ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
-};
-
-module FileDownload = {
-  [@bs.module "@material-ui/icons/FileDownload"]
-  external reactClass : ReasonReact.reactClass = "default";
-  let make = children =>
-    ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
-};
-
-module FileUpload = {
-  [@bs.module "@material-ui/icons/FileUpload"]
   external reactClass : ReasonReact.reactClass = "default";
   let make = children =>
     ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
@@ -3008,13 +2945,6 @@ module Info = {
     ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
 };
 
-module InfoOutline = {
-  [@bs.module "@material-ui/icons/InfoOutline"]
-  external reactClass : ReasonReact.reactClass = "default";
-  let make = children =>
-    ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
-};
-
 module Input = {
   [@bs.module "@material-ui/icons/Input"]
   external reactClass : ReasonReact.reactClass = "default";
@@ -3183,13 +3113,6 @@ module Label = {
     ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
 };
 
-module LabelOutline = {
-  [@bs.module "@material-ui/icons/LabelOutline"]
-  external reactClass : ReasonReact.reactClass = "default";
-  let make = children =>
-    ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
-};
-
 module Landscape = {
   [@bs.module "@material-ui/icons/Landscape"]
   external reactClass : ReasonReact.reactClass = "default";
@@ -3297,13 +3220,6 @@ module LibraryBooks = {
 
 module LibraryMusic = {
   [@bs.module "@material-ui/icons/LibraryMusic"]
-  external reactClass : ReasonReact.reactClass = "default";
-  let make = children =>
-    ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
-};
-
-module LightbulbOutline = {
-  [@bs.module "@material-ui/icons/LightbulbOutline"]
   external reactClass : ReasonReact.reactClass = "default";
   let make = children =>
     ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
@@ -3617,13 +3533,6 @@ module LockOpen = {
     ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
 };
 
-module LockOutline = {
-  [@bs.module "@material-ui/icons/LockOutline"]
-  external reactClass : ReasonReact.reactClass = "default";
-  let make = children =>
-    ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
-};
-
 module Looks = {
   [@bs.module "@material-ui/icons/Looks"]
   external reactClass : ReasonReact.reactClass = "default";
@@ -3794,13 +3703,6 @@ module Mms = {
 
 module ModeComment = {
   [@bs.module "@material-ui/icons/ModeComment"]
-  external reactClass : ReasonReact.reactClass = "default";
-  let make = children =>
-    ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
-};
-
-module ModeEdit = {
-  [@bs.module "@material-ui/icons/ModeEdit"]
   external reactClass : ReasonReact.reactClass = "default";
   let make = children =>
     ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
@@ -5164,13 +5066,6 @@ module SentimentDissatisfied = {
     ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
 };
 
-module SentimentNeutral = {
-  [@bs.module "@material-ui/icons/SentimentNeutral"]
-  external reactClass : ReasonReact.reactClass = "default";
-  let make = children =>
-    ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
-};
-
 module SentimentSatisfied = {
   [@bs.module "@material-ui/icons/SentimentSatisfied"]
   external reactClass : ReasonReact.reactClass = "default";
@@ -5537,13 +5432,6 @@ module SignalWifiOff = {
 
 module SimCard = {
   [@bs.module "@material-ui/icons/SimCard"]
-  external reactClass : ReasonReact.reactClass = "default";
-  let make = children =>
-    ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
-};
-
-module SimCardAlert = {
-  [@bs.module "@material-ui/icons/SimCardAlert"]
   external reactClass : ReasonReact.reactClass = "default";
   let make = children =>
     ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
@@ -5929,13 +5817,6 @@ module SyncProblem = {
 
 module SystemUpdate = {
   [@bs.module "@material-ui/icons/SystemUpdate"]
-  external reactClass : ReasonReact.reactClass = "default";
-  let make = children =>
-    ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
-};
-
-module SystemUpdateAlt = {
-  [@bs.module "@material-ui/icons/SystemUpdateAlt"]
   external reactClass : ReasonReact.reactClass = "default";
   let make = children =>
     ReasonReact.wrapJsForReason(~reactClass, ~props=Js.Obj.empty(), children);
